@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Modal, Tab, Button } from 'react-bootstrap';
-import styles from './Navbar.css';
-
-import Auth from '../../utils/auth';
+import './Navbar.css';
 
 const AppNavbar = () => {
   const [showModal, setShowModal] = useState(false);
@@ -16,11 +14,11 @@ const AppNavbar = () => {
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
           <Nav.Link as={Link} to='/' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
-                About Me
+                About
               </Nav.Link>
               <br></br>
               <br></br>
-              {/* <Nav.Link as={Link} to='/goals' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
+              <Nav.Link as={Link} to='/goals' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
                 Goals
               </Nav.Link>
               <br></br>
@@ -34,22 +32,22 @@ const AppNavbar = () => {
                 Messages
               </Nav.Link>
               <br></br>
-              <br></br> */}
+              <br></br>
               <Nav className='flex-column justify-content-center'>
-                  <Nav.Link onClick={() => setShowModal(true)} className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>Contact Me</Nav.Link>
+                  <Nav.Link onClick={() => setShowModal(true)} className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       {/* modal data */}
-      <Modal
+      {/* <Modal
         size='lg'
         show={showModal}
         onHide={() => setShowModal(false)}
         aria-labelledby='signup-modal'
         centered>
         {/* signup/login component */}
-        <Tab.Container defaultActiveKey='login'>
+        {/* <Tab.Container defaultActiveKey='login'>
           <Modal.Header closeButton>
             <Modal.Title id='signup-modal'>
               <Nav variant='pills'>
@@ -73,7 +71,7 @@ const AppNavbar = () => {
             </Tab.Content>
           </Modal.Body>
         </Tab.Container>
-      </Modal>
+      </Modal> */} 
     </>
   );
 };

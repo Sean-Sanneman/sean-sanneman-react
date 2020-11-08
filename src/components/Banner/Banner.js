@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Modal, Tab, Button } from 'react-bootstrap';
-import styles from '../index.css';
-import logo from '../assets/logo2.png';
+import '../../index.css';
+import logo from '../../assets/logo2.png';
 
 const Banner = () => {
 

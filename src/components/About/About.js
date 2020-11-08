@@ -9,19 +9,19 @@ const About = () => {
         <Container fluid className="d-flex">
             <Row className="main-panel">
                        
-                <h2>ZenQuotes</h2>
+                <h2>About Me</h2>
 
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
 
-                <h1><em>{quote}</em></h1>
+                <h1><em></em></h1>
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
-                <p><h3>- {author}</h3></p>
+                <p><h3></h3></p>
                 
             </Row>
         </Container>
