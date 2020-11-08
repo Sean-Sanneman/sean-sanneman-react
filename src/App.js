@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './index.css';
 
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner';
@@ -16,7 +17,7 @@ function App() {
           <div>
 
             <Row>
-              <Col xs={12}>
+              <Col xs={11}>
                 <Banner />
               </Col>
             </Row>

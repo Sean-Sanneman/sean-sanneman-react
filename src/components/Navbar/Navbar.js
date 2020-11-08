@@ -13,6 +13,7 @@ const AppNavbar = () => {
           {}
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
+          <Nav className='flex-column justify-content-center'>
           <Nav.Link as={Link} to='/' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
                 About
               </Nav.Link>
@@ -33,7 +34,6 @@ const AppNavbar = () => {
               </Nav.Link>
               <br></br>
               <br></br>
-              <Nav className='flex-column justify-content-center'>
                   <Nav.Link onClick={() => setShowModal(true)} className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
