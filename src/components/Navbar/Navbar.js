@@ -12,27 +12,15 @@ const AppNavbar = () => {
     <>
       <Navbar expand='lg'>
         <Container fluid>
-          {/* <Navbar.Brand as={Link} to='/'>
-            Goals
-          </Navbar.Brand> */}
+          {}
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
-            <Nav className='flex-column justify-content-center'>
-              {/* <Nav.Link as={Link} to='/'>
-                Diary
-              </Nav.Link> */}
-              {/* if logged in, show saved books and logout */}
-              {Auth.loggedIn() ? (
-                <>
-
-                  <Nav.Link onClick={Auth.logout} className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>Logout</Nav.Link>
-                </>
-              ) : (
-                  <Nav.Link onClick={() => setShowModal(true)} className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>Login/ Signup</Nav.Link>
-                )}
+          <Nav.Link as={Link} to='/' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
+                About Me
+              </Nav.Link>
               <br></br>
               <br></br>
-              <Nav.Link as={Link} to='/goals' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
+              {/* <Nav.Link as={Link} to='/goals' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
                 Goals
               </Nav.Link>
               <br></br>
@@ -46,15 +34,9 @@ const AppNavbar = () => {
                 Messages
               </Nav.Link>
               <br></br>
-              <br></br>
-              <Nav.Link as={Link} to='/' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
-                ZenQuotes
-              </Nav.Link>
-              <br></br>
-              <br></br>
-              <Nav.Link as={Link} to='/contact' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
-                Contact
-              </Nav.Link>
+              <br></br> */}
+              <Nav className='flex-column justify-content-center'>
+                  <Nav.Link onClick={() => setShowModal(true)} className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>Contact Me</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
