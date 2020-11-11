@@ -17,7 +17,7 @@ function App() {
           <div>
 
             <Row>
-              <Col xs={11}>
+              <Col xs={12}>
                 <Banner />
               </Col>
             </Row>
@@ -26,7 +26,7 @@ function App() {
                 <Navbar />
               </Col>
               <Container>
-                <Col xs={11} className="col-xs-offset-3">
+                <Col xs={10} className="col-xs-offset-3">
                   <Switch>
                     <Route exact path='/' component={About} />
                     {/* <Route exact path='/diary' component={Diary} />

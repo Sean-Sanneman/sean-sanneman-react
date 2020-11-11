@@ -15,9 +15,9 @@ code {
 }
 
 .main-panel {
-  margin: 6% 0 0 0; 
+  margin: 12% 0% 0 0; 
   align-content: center;
-  padding: 3% 10% 10% 10%;
+  padding: 4% 10% 6% 10%;
   background-color: rgba(4, 24, 72, 0.4);
   color: seashell;
   border: 20px;
