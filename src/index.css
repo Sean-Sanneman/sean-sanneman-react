@@ -1,5 +1,5 @@
 body {
-  background-image: url('./assets/gradient\ background.png');
+  background-image: radial-gradient(purple 5%, blue 20%, black 90%);
   background-size: cover;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
