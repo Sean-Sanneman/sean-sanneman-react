@@ -26,6 +26,13 @@ code {
   /* background-color: ; */
 }
 
+.photo {
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  border-radius: 136px;
+}
+
 .hero{
   display: flex;
   justify-content: flex-end;
