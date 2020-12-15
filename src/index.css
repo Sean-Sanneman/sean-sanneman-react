@@ -26,6 +26,16 @@ code {
   /* background-color: ; */
 }
 
+.hero{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.flex-container{
+  display: flex;
+}
+
 
 /* Buttons styles for Add, Delete, Edit */
 

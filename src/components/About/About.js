@@ -11,14 +11,14 @@ const About = () => {
         <Container fluid className="d-flex">
             <Row className="main-panel">
                        
-                <h2 className="header">About Me</h2>
+            <h2 className="header">About Me</h2>
 
                 <br></br>
                 <div class="flex-container">
                 <div class="flex-child-left">
-                    <img src={myPhoto} className="" style={{ width: "25%"}} alt="myPhoto" />
+                    <img src={myPhoto} className="" style={{ width: "75%"}} alt="myPhoto" />
                     </div>
-                    <div class="flex-row hero flex-child-right">
+                    <div class="flex-row hero flex-child-right" style={{ width: "100%"}}>
                         <h5 class="aboutMeText">
                 I am a full-Stack Web Developer with a background in audio engineering, and a passion for innovation and forward thinking design. I am effective at combining creativity and problem solving to develop applications that bring something a little extra to the mix. I am known for being adept at seeing the big picture while maintaining a detail-oriented approach to anything I am working on. Should you find yourself needing someone to handle audio and video content on top of any coding required, I am able to do that as well. 
                 </h5>
