@@ -14,6 +14,8 @@ const About = () => {
             <h2 className="header">About Me</h2>
 
                 <br></br>
+                <br></br>
+                <br></br>
                 <div class="flex-container">
                 <div class="flex-child-left">
                     <img src={myPhoto} className="photo" style={{ width: "75%"}} alt="myPhoto" />
