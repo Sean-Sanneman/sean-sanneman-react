@@ -29,8 +29,8 @@ code {
 .photo {
   border-style: solid;
   border-color: black;
-  border-width: 4px;
-  border-radius: 136px;
+  border-width: 2px;
+  border-radius: 100%;
 }
 
 .hero{
