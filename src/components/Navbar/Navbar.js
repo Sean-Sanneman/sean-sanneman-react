@@ -23,7 +23,7 @@ const AppNavbar = () => {
               </Nav.Link>
               <br></br>
               <br></br>
-              <Nav.Link as={Link} to='/goals' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
+              <Nav.Link as={Link} to='/projects' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
                 Projects
               </Nav.Link>
               <br></br>

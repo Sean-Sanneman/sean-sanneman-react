@@ -7,6 +7,7 @@ import './index.css';
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner';
 import About from './components/About/About';
+import Projects from "./components/Projects/Projects";
 import Footer from './components/Footer/Footer';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -29,8 +30,9 @@ function App() {
                 <Col xs={10} className="col-xs-offset-3">
                   <Switch>
                     <Route exact path='/' component={About} />
+                    <Route exact path='/projects' component={Projects} />
                     {/* <Route exact path='/diary' component={Diary} />
-                    <Route exact path='/goals' component={Goals} />
+                    
                     <Route exact path='/messages' component={Messages} />
                     <Route exact path='/contact' component={Contact} /> */}
                   </Switch>
