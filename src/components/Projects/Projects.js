@@ -22,7 +22,7 @@ const Projects = () => {
     <Card.Text>
     Future RAM is a life planner app. Users can log-on, get inspiration for the day, set goals, and keep a digital diary for future reference. This website is currently under development.
     </Card.Text>
-    <Button href="https://wicked-ghoul-96440.herokuapp.com/" className="linkButton" variant="primary">Visit Site</Button>
+    <Button href="https://wicked-ghoul-96440.herokuapp.com/" target="_blank" className="linkButton" variant="primary">Visit Site</Button>
   </Card.Body>
 </Card>
 
@@ -33,7 +33,7 @@ const Projects = () => {
     <Card.Text>
       Book Garden is a website where users can search for random book suggestions based on their preferences. Book Garden will eventually become a social networking platform for bookworms. 
     </Card.Text>
-    <Button href="https://jason-ahmed-123.github.io/groupproject1-book-garden/" className="linkButton" variant="primary">Visit Site</Button>
+    <Button href="https://jason-ahmed-123.github.io/groupproject1-book-garden/" target="_blank" className="linkButton" variant="primary">Visit Site</Button>
   </Card.Body>
 </Card>
 
@@ -44,7 +44,7 @@ const Projects = () => {
     <Card.Text>
     Welcome to the Musicians Collaborative Laboratory! Collab is a website being developed to help musicians find other musicians to collaborate with remotely. Musicians will be able to create an account, and look for other musicians based on instruments and genres.
     </Card.Text>
-    <Button href="https://immense-wave-96747.herokuapp.com/" className="linkButton" variant="primary">Visit Site</Button>
+    <Button href="https://immense-wave-96747.herokuapp.com/" target="_blank" className="linkButton" variant="primary">Visit Site</Button>
   </Card.Body>
 </Card>
 
