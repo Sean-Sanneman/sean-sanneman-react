@@ -9,6 +9,7 @@ import Banner from './components/Banner/Banner';
 import About from './components/About/About';
 import Projects from "./components/Projects/Projects";
 import Footer from './components/Footer/Footer';
+import Music from './components/Music/Music';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
                   <Switch>
                     <Route exact path='/' component={About} />
                     <Route exact path='/projects' component={Projects} />
+                    <Route exact path='/music' component={Music} />
                     
                   </Switch>
                 </Col>
