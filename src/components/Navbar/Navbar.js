@@ -34,7 +34,7 @@ const AppNavbar = () => {
               <br></br>
               <br></br>
               <Nav.Link as={Link} to='/messages' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
-                Poetry
+                Resume
               </Nav.Link>
               <br></br>
               <br></br>
