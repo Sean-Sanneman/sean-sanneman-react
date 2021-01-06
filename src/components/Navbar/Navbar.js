@@ -28,7 +28,7 @@ const AppNavbar = () => {
               </Nav.Link>
               <br></br>
               <br></br>
-              <Nav.Link as={Link} to='/diary' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
+              <Nav.Link as={Link} to='/music' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
                 Music
               </Nav.Link>
               <br></br>
