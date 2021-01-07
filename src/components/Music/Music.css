@@ -1,0 +1,16 @@
+.video {
+    align-content: center;
+    color: seashell;
+    background-color: transparent;
+    background-color: rgba(4, 12, 48, 0.4);
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 24px 12px rgba(0, 0, 0, 0.9);
+    margin: 2rem;
+}
+
+.link {
+    color: white;
+}

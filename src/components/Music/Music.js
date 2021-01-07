@@ -8,10 +8,17 @@ const Music = () => {
         
         <Container fluid className="d-flex">
             <Row className="main-panel">
-                <h1>hello</h1>
+            
+            <iframe className="video" width="280" height="158" src="https://www.youtube.com/embed/FH_ABvoE0aM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <iframe className="video" width="280" height="158" src="https://www.youtube.com/embed/OiQsJ4UYesI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <iframe className="video" width="280" height="158" src="https://www.youtube.com/embed/PjLW-O5CsIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <iframe className="video" width="280" height="158" src="https://www.youtube.com/embed/NKx2M40tgPY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h4>I also write music under the artist name Sean Dafydd. These are a few of the songs I've written over the years. If you're interested in hearing more, you can find me on <a className="link" href="https://soundcloud.com/mr-mkus">soundcloud</a>.</h4>
+            
 
             </Row>
         </Container>
