@@ -31,7 +31,7 @@ const Projects = () => {
   <Card.Body>
     <Card.Title>Book Garden</Card.Title>
     <Card.Text>
-      Book Garden is a website where users can search for random book suggestions based on their preferences. Book Garden will eventually become a social networking platform for bookworms. 
+      Book Garden is a website where users can search for book suggestions based on their preferences. Book Garden will eventually become a social networking platform for bookworms. 
     </Card.Text>
     <Button href="https://jason-ahmed-123.github.io/groupproject1-book-garden/" target="_blank" className="linkButton" variant="primary">Visit Site</Button>
   </Card.Body>

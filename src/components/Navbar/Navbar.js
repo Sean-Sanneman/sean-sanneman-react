@@ -38,7 +38,7 @@ const AppNavbar = () => {
               </Nav.Link>
               <br></br>
               <br></br>
-                  <Nav.Link onClick={() => setShowModal(true)} className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>Contact</Nav.Link>
+                  
             </Nav>
           </Navbar.Collapse>
         </Container>
