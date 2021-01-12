@@ -4,7 +4,6 @@ import { Navbar, Nav, Container, Modal, Tab, Button } from 'react-bootstrap';
 import './Navbar.css';
 
 const AppNavbar = () => {
-  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
