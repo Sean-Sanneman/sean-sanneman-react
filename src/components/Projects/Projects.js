@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Jumbotron, Container, Col, Form, Button, Card, CardColumns, Row } from 'react-bootstrap';
+import { Container, Button, Card, Row } from 'react-bootstrap';
 import './Projects.css';
 import bookGarden from '../../assets/bookgarden_scrnsht.png';
 import collab from '../../assets/collab_scrsht.jpg';
