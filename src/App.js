@@ -31,12 +31,12 @@ function App() {
                 <Navbar />
               </Col>
               <Container>
-                <Col xs={10} className="col-xs-offset-3">
+                <Col xs={11} className="col-xs-offset-3">
                   <Switch>
-                    <Route exact path='/about' component={About} />
                     <Route exact path='/projects' component={Projects} />
                     <Route exact path='/music' component={Music} />
                     <Route exact path='/resume' component={Resume} />
+                    <Route exact path='*' component={About} />
                   </Switch>
                 </Col>
               </Container>

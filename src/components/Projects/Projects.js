@@ -15,7 +15,7 @@ const Projects = () => {
       <Container fluid className="d-flex">
 
 <Row className="main-panel">
-<Card className="cards" style={{ width: '20rem' }}>
+<Card className="cards" style={{ width: '100%' }}>
   <Card.Img className="bookShot" variant="top" src={future} />
   <Card.Body>
     <Card.Title>Future RAM</Card.Title>
@@ -26,7 +26,7 @@ const Projects = () => {
   </Card.Body>
 </Card>
 
-<Card className="cards" style={{ width: '20rem' }}>
+<Card className="cards" style={{ width: '100%' }}>
   <Card.Img className="bookShot" variant="top" src={bookGarden} />
   <Card.Body>
     <Card.Title>Book Garden</Card.Title>
@@ -37,7 +37,7 @@ const Projects = () => {
   </Card.Body>
 </Card>
 
-<Card className="cards" style={{ width: '20rem' }}>
+<Card className="cards" style={{ width: '100%' }}>
   <Card.Img className="bookShot" variant="top" src={collab} />
   <Card.Body>
     <Card.Title>Collab</Card.Title>

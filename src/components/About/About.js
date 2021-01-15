@@ -5,6 +5,7 @@ import myPhoto from "../../assets/Profile_cropped.jpg";
 
 
 const About = () => {
+
     return (
         <div className="d-flex justify-content-center">
         
