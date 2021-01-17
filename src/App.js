@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './index.css';
 
+
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner';
 import About from './components/About/About';
@@ -31,7 +32,7 @@ function App() {
                 <Navbar />
               </Col>
               <Container>
-                <Col xs={11} className="col-xs-offset-3">
+                <Col xs={12} className="col-xs-offset-3">
                   <Switch>
                     <Route exact path='/projects' component={Projects} />
                     <Route exact path='/music' component={Music} />

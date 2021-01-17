@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, Container, Modal, Tab, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import Pdf from '../../assets/Sanneman_Resume_Coding.pdf';
 import './Navbar.css';
 
 const AppNavbar = () => {
@@ -12,7 +13,7 @@ const AppNavbar = () => {
           {}
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
-          <Nav className='flex-column justify-content-center'>
+          <Nav className='flex-column justify-content-center flexCol'>
           <br></br>
               <br></br>
               <br></br>

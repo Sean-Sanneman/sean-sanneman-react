@@ -1,6 +1,7 @@
 import React, { component } from 'react';
 import { Component } from 'react';
 import Pdf from '../../assets/Sanneman_Resume_Coding.pdf';
+import './Resume.css';
 
 class Resume extends Component {
     render() {

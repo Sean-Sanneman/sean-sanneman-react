@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=sanchez');
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* media queries */
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .flexCol {
+    text-align: center;
+    display: inline;
+    display: flex;
+    width: 100%;
+  }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+
+@media screen and (max-width: 575px) {
+  .flexCol {
+    text-align: center;
+    display: inline;
+    display: flex;
+    width: 100%;
+  }
+  }

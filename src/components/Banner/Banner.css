@@ -1,0 +1,22 @@
+h1, h3 {
+    font-family: sanchez;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: seashell;
+    text-shadow: 5px 2px black; 
+    padding: auto;
+}
+
+h1 {
+    font-size: xxx-large;
+    font-weight:bold;
+    padding-top: 2rem;
+}
+
+h3 {
+    font-style:oblique;
+}
+
+
+
