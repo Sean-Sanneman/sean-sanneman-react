@@ -3,6 +3,10 @@
     padding: 5%;
 }
 
+.bookShot:hover {
+    transform: scale(.95);
+}
+
 .cards {
     align-content: center;
     color: seashell;
