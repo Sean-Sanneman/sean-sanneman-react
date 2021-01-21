@@ -15,3 +15,23 @@
     border-radius: 100%;
     box-shadow: 4px 4px 48px 12px rgba(0, 0, 0, 0.9);
   }
+
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+.flex-container {
+    flex-direction: column;
+}
+
+ #myPhoto {
+     padding-top: 10%;
+     margin: 10%;
+     width: 100%;
+     
+ }
+
+ #aboutText {
+    width: 100%;
+
+ }
+}
