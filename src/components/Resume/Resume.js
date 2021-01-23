@@ -8,7 +8,7 @@ class Resume extends Component {
 
         return (
             <div className="App">
-                <a href = {Pdf} target = "_blank" style={{ color: 'seashell', textDecoration: 'none' }}><h2><br></br>Download</h2></a>
+                <a href = {Pdf} target = "_blank" style={{ color: 'seashell', textDecoration: 'none' }}><h2><br></br>Open/Download</h2></a>
             </div>
         )
     }
