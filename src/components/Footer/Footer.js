@@ -6,6 +6,7 @@ import { Jumbotron, Container, Col, Form, Button, Card, CardColumns, Row } from 
 
 
 import '../../index.css';
+import './Footer.css';
 
 import Auth from '../../utils/helpers';
 
@@ -28,7 +29,7 @@ return (
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12">
                     <h6 className="text-uppercase font-weight-bold">Contact</h6>
-                    <p>Burbank, California
+                    <p id='burbank'>Burbank, California
                         <br></br>
                     <a className="link" href="mailto:seandafydd@gmail.com">seandafydd@gmail.com</a></p>
                 </div>
