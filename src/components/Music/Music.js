@@ -17,7 +17,7 @@ const Music = () => {
 
             <iframe className="video" width="280" height="158" src="https://www.youtube.com/embed/NKx2M40tgPY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <h4>I also write, mix, and produce music under the artist name Sean Dafydd. Here are a few of the songs I've written over the years, as well as a remix I did for a well known Hungarian guitar player. If you're interested in hearing more, you can find me on <a className="link" href="https://soundcloud.com/mr-mkus">soundcloud</a>.</h4>
+            <h4>I also write, mix, and produce music under the artist name Sean Dafydd. These are a few of the songs I've written over the years, as well as a remix I did for a well known Hungarian guitar player. If you're interested in hearing more, you can find me on <a className="link" href="https://soundcloud.com/mr-mkus">soundcloud</a>.</h4>
             
 
             </Row>

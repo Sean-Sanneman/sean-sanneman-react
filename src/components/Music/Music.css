@@ -8,9 +8,9 @@
     border-width: 6px;
     border-radius: 25px;
     box-shadow: 4px 4px 24px 12px rgba(0, 0, 0, 0.9);
-    margin: 2rem;
+    margin: 2rem auto;
 }
 
 .link {
-    color: white;
+    color: rgb(173, 108, 235);
 }

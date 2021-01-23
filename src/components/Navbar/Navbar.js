@@ -9,17 +9,17 @@ const AppNavbar = () => {
 
   return (
     <>
-      <Navbar className='navbar-dark' expand='lg'>
+      <Navbar collapseOnSelect className='navbar-dark' expand='lg'>
         <Container fluid>
           {}
-          <Navbar.Toggle aria-controls='navbar' />
-          <Navbar.Collapse id='navbar' >
-          <Nav className='flex-column justify-content-center flexCol'>
+          <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+          <Navbar.Collapse id='responsive-navbar-nav' >
+          <Nav className='mr-auto flex-column justify-content-center flexCol'>
           <br></br>
               <br></br>
               <br></br>
               <br></br>
-          <Nav.Link as={Link} to='/about' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }}>
+          <Nav.Link as={Link} to='/about' className='myBtn btnPad text-center' style={{ color: 'black', textDecoration: 'none' }} >
                 About
               </Nav.Link>
               <br></br>
