@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-import Pdf from '../../assets/Sanneman_Resume_Coding.pdf';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 

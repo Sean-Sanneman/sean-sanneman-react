@@ -1,14 +1,17 @@
-import React, { component } from 'react';
-import { Component } from 'react';
-import Pdf from '../../assets/Sanneman_Resume_Coding.pdf';
+import React, {Component} from 'react';
 import './Resume.css';
+import PDFViewer from 'mgr-pdf-viewer-react';
+import filePath from '../../assets/Sanneman_Resume_Coding.pdf';
 
 class Resume extends Component {
     render() {
-
         return (
             <div className="App">
-                <a href = {Pdf} target = "_blank" style={{ color: 'seashell', textDecoration: 'none' }}><h2><br></br>Open/Download</h2></a>
+                <PDFViewer
+                    document={{
+                        file: filePath,
+                    }}
+                />
             </div>
         )
     }

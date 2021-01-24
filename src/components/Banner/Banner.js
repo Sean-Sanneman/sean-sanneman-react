@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Modal, Tab, Button, Row } from 'react-bootstrap';
 import '../../index.css';
 import './Banner.css';
-import logo from '../../assets/sean.png';
 
 const Banner = () => {
 
