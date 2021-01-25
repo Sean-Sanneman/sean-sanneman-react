@@ -6,8 +6,9 @@ import filePath from '../../assets/Sanneman_Resume_Coding.pdf';
 class Resume extends Component {
     render() {
         return (
+            
             <div className="App">
-                <PDFViewer
+                <PDFViewer id="pdf"
                     document={{
                         file: filePath,
                     }}
