@@ -14,11 +14,13 @@
 
   ## Installation
 
-  not for install
+  Not for install, click here to view ---> https://sean-sanneman.github.io/sean-sanneman-react/
 
   ## Usage
 
-  Informational only. You can find my resume and contact info in the portfolio, feel free to get in touch if you like what you see. https://sean-sanneman.github.io/sean-sanneman-react/
+  Informational only. You can find my resume and contact info in the portfolio, feel free to get in touch if you like what you see.  
+
+  ![portfolio_scr](https://user-images.githubusercontent.com/64930571/106677614-e7384f80-656d-11eb-888e-beb202a618dc.png)
 
   ## Credits
 
