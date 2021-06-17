@@ -14,7 +14,7 @@
 
   ## Installation
 
-  Not for install, click here to view ---> https://sean-sanneman.github.io/sean-sanneman-react/
+  Not for install, click here to view ---> https://sean-sanneman.github.io/
 
   ## Usage
 
