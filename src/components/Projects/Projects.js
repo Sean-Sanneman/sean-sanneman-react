@@ -48,7 +48,7 @@ const Projects = () => {
   <Card.Body>
     <Card.Title>Collab</Card.Title>
     <Card.Text>
-    Welcome to the Musicians Collaborative Laboratory! Collab is a website being developed to help musicians find other musicians to collaborate with remotely. Musicians will be able to create an account, and look for other musicians based on instruments and genres.
+    Welcome to the Musicians Collaborative Laboratory! Collab was my second project in bootcamp. Collab is now being developed under another name, and will be a website aimed at helping people find other musicians to collaborate with remotely. Users will be able to set up an account, and create a network of musicians based on instruments and genres to work on projects with online.
     </Card.Text>
     <Button href="https://github.com/Sean-Sanneman/collab" target="_blank" className="linkButton" variant="primary">GitHub</Button>
   </Card.Body>
