@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                     <div class="" id='aboutText' style={{ width: "100%"}}>
                         <h5 className="aboutMeText">
-                I am a full-Stack Web Developer with a background in audio engineering, and a passion for innovation and forward thinking design. I effectively combine creativity and problem solving to develop applications that bring something a little extra to the mix. I am known for being adept at seeing the big picture while maintaining a detail-oriented approach to anything I am working on. Should you find yourself needing someone to handle audio and video content on top of any coding required, I am able to do that as well. 
+                I am a full-Stack Web Developer with a background in audio engineering, and a passion for innovation and forward thinking design. I effectively combine creativity and problem solving to develop applications that bring something a little extra to the mix. I am known for being adept at seeing the big picture while maintaining a detail-oriented approach to anything I am working on.  
                 </h5>
                 </div>
                 </div>
